@@ -1,0 +1,102 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "128散.moc3",
+    "Textures": [
+      "128散.4096/texture_00.png"
+    ],
+    "Physics": "128散.physics3.json",
+    "PhysicsV2": {
+      "File": "128散.physics3.json"
+    },
+    "Motions": {
+      "Tap": [
+        {
+          "Name": "风",
+          "Text": "这世上没有纯粹的自由，风也会有吹到头的时候。",
+          "TextDuration": 5000
+        },
+        {
+          "Name": "寒暄",
+          "Text": "寒暄就免了吧，没话找话的样子也太可笑了。",
+          "TextDuration": 5000
+        },
+        {
+          "Name": "茶",
+          "Text": "有茶吗？越苦越好，回味无穷。",
+          "TextDuration": 4000
+        },
+        {
+          "Name": "1",
+          "Text": "就这样吧，你我没什么好说的。",
+          "TextDuration": 5000
+        }
+      ],
+      "Start": [
+        {
+          "Name": "1",
+          "TextDuration": 10000
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "1"
+    },
+    {
+      "Name": "2"
+    },
+    {
+      "Name": "3"
+    },
+    {
+      "Name": "4"
+    }
+  ],
+  "Options": {}
+}
