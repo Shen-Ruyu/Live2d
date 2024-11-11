@@ -1,4 +1,4 @@
-# Live2d
+# Live2d-Wanderer
 
 Download the Android software and LPK documentation, then select the model to add LPK loading.
 
